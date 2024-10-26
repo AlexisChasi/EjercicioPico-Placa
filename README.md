@@ -43,7 +43,7 @@ frontend.url=http://localhost:4200/
 - URL: /car
 - Método: POST
 - Body:
-
+```
 {
   "licensePlate": "ABC1234",
   "color": "Rojo",
@@ -51,7 +51,7 @@ frontend.url=http://localhost:4200/
   "chassis": "CH123456",
   "owner": "Juan Pérez"
 }
-
+```
 # Obtener Todos los Vehículos
 - URL: /car
 - Método: GET
@@ -64,7 +64,8 @@ frontend.url=http://localhost:4200/
 # Actualizar un Vehículo
 - URL: /car
 - Método: PUT
-- Body
+- Body:
+```
 {
   "id": 1,
   "licensePlate": "ABC1234",
@@ -73,6 +74,7 @@ frontend.url=http://localhost:4200/
   "chassis": "CH123457",
   "owner": "Juan Ortiz"
 }
+```
 
 # Eliminar un Vehículo
 - URL: /car/{id}
@@ -86,6 +88,8 @@ frontend.url=http://localhost:4200/
 # licensePlate: Placa del vehículo.
 # fechaConsulta: Fecha y hora de la consulta en formato yyyy-MM-dd'T'HH:mm:ss.
 # Ejemplo de Respuesta
+```
 {
   "message": "El vehículo con la placa ABC1234 NO puede circular hoy (Lunes) de 7:00 a 9:30 o de 16:00 a 19:00."
 }
+```
