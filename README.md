@@ -32,7 +32,7 @@ Asegúrate de tener PostgreSQL instalado y en ejecución. Crea una base de datos
 spring.application.name=crud
 spring.datasource.url=jdbc:postgresql://localhost:5432/crud
 spring.datasource.username=postgres
-spring.datasource.password=123456
+spring.datasource.password=123456 o la contraseña especificada
 spring.jpa.hibernate.ddl-auto=create-drop
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
