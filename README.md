@@ -100,14 +100,13 @@ frontend.url=http://localhost:4200/
 
   ![image](https://github.com/user-attachments/assets/12d28d56-e0a2-4468-8575-969f50237bd5)
 
-
 # Verificar Circulación
-# URL: /car/check-circulation
-# Método: GET
-# Query Parameters:
-# licensePlate: Placa del vehículo.
-# fechaConsulta: Fecha y hora de la consulta en formato yyyy-MM-dd'T'HH:mm:ss.
-# Ejemplo de Respuesta
+- URL: /car/check-circulation
+- Método: GET
+- Query Parameters:
+- licensePlate: Placa del vehículo.
+- fechaConsulta: Fecha y hora de la consulta en formato yyyy-MM-dd'T'HH:mm:ss.
+- Ejemplo de Respuesta
 ```
 {
   "message": "El vehículo con la placa ABC1234 NO puede circular hoy (Lunes) de 7:00 a 9:30 o de 16:00 a 19:00."
