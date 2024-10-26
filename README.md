@@ -59,10 +59,14 @@ frontend.url=http://localhost:4200/
 - URL: /car
 - Método: GET
 - Respuesta: Lista de vehículos en formato JSON.
-- Obtener un Vehículo por ID
+  ![image](https://github.com/user-attachments/assets/4ac5236b-a6e7-4b0c-9aad-f0df4a2aaffd)
+
+# Obtener un Vehículo por ID
 - URL: /car/{id}
 - Método: GET
 - Respuesta: Vehículo en formato JSON o 404 si no se encuentra.
+  
+![image](https://github.com/user-attachments/assets/fbee5648-9fe8-4482-a700-a39724fa9719)
 
 # Actualizar un Vehículo
 - URL: /car
@@ -70,19 +74,24 @@ frontend.url=http://localhost:4200/
 - Body:
 ```
 {
-  "id": 1,
-  "licensePlate": "ABC1234",
-  "color": "Azul",
-  "model": "Sedan",
-  "chassis": "CH123457",
-  "owner": "Juan Ortiz"
-}
+ "id": 1,
+ "licensePlate": "ABC1234",
+ "color": "Azul",
+"model": "Toyota Corolla",
+"chassis": "XYZ12345ABC",
+"owner": "Alexis Chasi"
+ }
 ```
+![image](https://github.com/user-attachments/assets/b637ff49-0860-4a84-acbf-d7c58536e4ee)
+
 
 # Eliminar un Vehículo
 - URL: /car/{id}
 - Método: DELETE
 - Respuesta: 200 si se elimina correctamente o 404 si no se encuentra.
+
+  ![image](https://github.com/user-attachments/assets/12d28d56-e0a2-4468-8575-969f50237bd5)
+
 
 # Verificar Circulación
 # URL: /car/check-circulation
@@ -96,3 +105,4 @@ frontend.url=http://localhost:4200/
   "message": "El vehículo con la placa ABC1234 NO puede circular hoy (Lunes) de 7:00 a 9:30 o de 16:00 a 19:00."
 }
 ```
+![image](https://github.com/user-attachments/assets/be30a50e-d561-4a80-b446-e33ffb642d28)
