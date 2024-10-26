@@ -52,6 +52,9 @@ frontend.url=http://localhost:4200/
   "owner": "Juan Pérez"
 }
 ```
+```
+![image](https://github.com/user-attachments/assets/8c108ec6-f13f-4578-bf43-b716fdf1636b)
+```
 # Obtener Todos los Vehículos
 - URL: /car
 - Método: GET
