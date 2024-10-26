@@ -112,4 +112,8 @@ frontend.url=http://localhost:4200/
   "message": "El vehículo con la placa ABC1234 NO puede circular hoy (Lunes) de 7:00 a 9:30 o de 16:00 a 19:00."
 }
 ```
+```
+licensePlate=ABC1234
+fechaConsulta=2024-10-26T07:33
+```
 ![image](https://github.com/user-attachments/assets/be30a50e-d561-4a80-b446-e33ffb642d28)
