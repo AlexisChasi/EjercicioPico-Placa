@@ -35,14 +35,14 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.properties.hibernate.format_sql=true
 frontend.url=http://localhost:4200/
 ```
-### PARA EJECUTAR EL PROYECTO CLONAR ESTE REPOSITORIO Y EJECUTAR EL PROGRAMA
+# PARA EJECUTAR EL PROYECTO CLONAR ESTE REPOSITORIO Y EJECUTAR EL PROGRAMA
 
-## PROBAR METODOS EN POSTMAN
-# Endpoints
-# Crear un Vehículo
-# URL: /car
-# Método: POST
-# Body
+# PROBAR METODOS EN POSTMAN
+- Endpoints
+- Crear un Vehículo
+- URL: /car
+- Método: POST
+- Body:
 
 {
   "licensePlate": "ABC1234",
@@ -53,18 +53,18 @@ frontend.url=http://localhost:4200/
 }
 
 # Obtener Todos los Vehículos
-# URL: /car
-# Método: GET
-# Respuesta: Lista de vehículos en formato JSON.
-# Obtener un Vehículo por ID
-# URL: /car/{id}
-# Método: GET
-# Respuesta: Vehículo en formato JSON o 404 si no se encuentra.
+- URL: /car
+- Método: GET
+- Respuesta: Lista de vehículos en formato JSON.
+- Obtener un Vehículo por ID
+- URL: /car/{id}
+- Método: GET
+- Respuesta: Vehículo en formato JSON o 404 si no se encuentra.
 
 # Actualizar un Vehículo
-# URL: /car
-# Método: PUT
-# Body
+- URL: /car
+- Método: PUT
+- Body
 {
   "id": 1,
   "licensePlate": "ABC1234",
@@ -74,10 +74,10 @@ frontend.url=http://localhost:4200/
   "owner": "Juan Ortiz"
 }
 
- Eliminar un Vehículo
-# URL: /car/{id}
-# Método: DELETE
-# Respuesta: 200 si se elimina correctamente o 404 si no se encuentra.
+# Eliminar un Vehículo
+- URL: /car/{id}
+- Método: DELETE
+- Respuesta: 200 si se elimina correctamente o 404 si no se encuentra.
 
 # Verificar Circulación
 # URL: /car/check-circulation
