@@ -16,6 +16,9 @@ Este es un proyecto de backend desarrollado en Java utilizando Spring Boot. Prop
 - JDK 17 
 - PostgreSQL
 - Maven
+- crear la bd en PostgreSQL
+
+![image](https://github.com/user-attachments/assets/5d650514-5039-4b61-b821-10f29ed538f4)
 
 
 ## Configuración
