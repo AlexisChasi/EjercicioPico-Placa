@@ -17,6 +17,7 @@ Este es un proyecto de backend desarrollado en Java utilizando Spring Boot. Prop
 - PostgreSQL
 - Maven
 - crear la bd en PostgreSQL
+- abrir el proyecto en Intellij
 
 ![image](https://github.com/user-attachments/assets/5d650514-5039-4b61-b821-10f29ed538f4)
 
@@ -39,6 +40,9 @@ spring.jpa.properties.hibernate.format_sql=true
 frontend.url=http://localhost:4200/
 ```
 # PARA EJECUTAR EL PROYECTO CLONAR ESTE REPOSITORIO Y EJECUTAR EL PROGRAMA
+
+![image](https://github.com/user-attachments/assets/f98da765-5c59-4017-8195-fc3ec5617bd7)
+
 
 # PROBAR METODOS EN POSTMAN
 - Endpoints
