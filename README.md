@@ -66,7 +66,8 @@ frontend.url=http://localhost:4200/
 - URL: /car
 - Método: GET
 - Respuesta: Lista de vehículos en formato JSON.
-  ![image](https://github.com/user-attachments/assets/4ac5236b-a6e7-4b0c-9aad-f0df4a2aaffd)
+  
+![image](https://github.com/user-attachments/assets/4ac5236b-a6e7-4b0c-9aad-f0df4a2aaffd)
 
 # Obtener un Vehículo por ID
 - URL: /car/{id}
