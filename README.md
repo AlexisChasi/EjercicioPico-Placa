@@ -34,7 +34,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.properties.hibernate.format_sql=true
 frontend.url=http://localhost:4200/
-
+```
 ### PARA EJECUTAR EL PROYECTO CLONAR ESTE REPOSITORIO Y EJECUTAR EL PROGRAMA
 
 ## PROBAR METODOS EN POSTMAN
@@ -74,7 +74,7 @@ frontend.url=http://localhost:4200/
   "owner": "Juan Ortiz"
 }
 
-# Eliminar un Vehículo
+ Eliminar un Vehículo
 # URL: /car/{id}
 # Método: DELETE
 # Respuesta: 200 si se elimina correctamente o 404 si no se encuentra.
